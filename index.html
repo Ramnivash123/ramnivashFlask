@@ -351,72 +351,6 @@
             color: var(--text-dark);
         }
 
-        /* Projects Section */
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-        }
-
-        .project-card {
-            background: var(--white);
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: var(--shadow-medium);
-            transition: all 0.3s ease;
-        }
-
-        .project-card:hover {
-            transform: translateY(-10px);
-            box-shadow: var(--shadow-large);
-        }
-
-        .project-image {
-            height: 200px;
-            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .project-image i {
-            font-size: 3rem;
-            color: white;
-            opacity: 0.8;
-        }
-
-        .project-content {
-            padding: 2rem;
-        }
-
-        .project-content h3 {
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
-            color: var(--text-dark);
-        }
-
-        .project-content p {
-            color: var(--text-light);
-            margin-bottom: 1.5rem;
-        }
-
-        .project-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .tag {
-            background: rgba(102, 126, 234, 0.1);
-            color: var(--primary-color);
-            padding: 0.3rem 0.8rem;
-            border-radius: 15px;
-            font-size: 0.8rem;
-            font-weight: 500;
-        }
 
         /* Contact Section */
         .contact {
@@ -562,10 +496,9 @@
                 Ramnivash
             </a>
             <nav>
-                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </nav>
         </div>
@@ -643,69 +576,6 @@
                 <div class="skill-card">
                     <i class="fas fa-robot"></i>
                     <h3>Chatbots</h3>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="section animate-on-scroll">
-            <h2>Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Portfolio Website</h3>
-                        <p>A responsive portfolio website showcasing modern web development techniques with smooth animations and interactive elements.</p>
-                        <div class="project-tags">
-                            <span class="tag">HTML5</span>
-                            <span class="tag">CSS3</span>
-                            <span class="tag">JavaScript</span>
-                        </div>
-                        <a href="#" class="btn btn-primary">
-                            <i class="fas fa-external-link-alt"></i>
-                            View Project
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-comments"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>AI Chatbot</h3>
-                        <p>An intelligent chatbot application built with Python and Flask, featuring natural language processing capabilities.</p>
-                        <div class="project-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">Flask</span>
-                            <span class="tag">AI/ML</span>
-                        </div>
-                        <a href="#" class="btn btn-primary">
-                            <i class="fas fa-external-link-alt"></i>
-                            View Project
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-chart-bar"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Data Dashboard</h3>
-                        <p>A dynamic web dashboard for data visualization and analytics, built with modern frameworks and responsive design.</p>
-                        <div class="project-tags">
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">Python</span>
-                            <span class="tag">SQLite</span>
-                        </div>
-                        <a href="#" class="btn btn-primary">
-                            <i class="fas fa-external-link-alt"></i>
-                            View Project
-                        </a>
-                    </div>
                 </div>
             </div>
         </section>
